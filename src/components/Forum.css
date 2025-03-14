@@ -1,0 +1,97 @@
+.forum {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Add Discussion Section */
+.add-discussion {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+/* Larger, styled input field for topic name */
+.large-input {
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid #a0c4ff;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.large-input::placeholder {
+  color: #888;
+}
+
+.large-input:focus {
+  border-color: #007bff;
+}
+
+/* Larger, styled textarea for details */
+.large-textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 16px;
+  padding: 8px;
+  border: 2px solid #a0c4ff;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  resize: none;
+}
+
+.large-textarea::placeholder {
+  color: #888;
+}
+
+.large-textarea:focus {
+  border-color: #007bff;
+}
+
+/* Discussion List */
+.discussion-list {
+  margin-top: 20px;
+}
+
+.discussion {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+}
+
+.discussion button {
+  margin-right: 10px;
+}
+
+/* Trending Topics */
+.trending-topics {
+  margin-top: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.comment-button {
+  margin-top: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.comment-button:hover {
+  background-color: #e0e0e0;
+}
+.add-discussion textarea {
+  width: 100%;
+  resize: vertical; /* Allow manual resizing by user */
+  min-height: 120px; /* Initial height */
+}
